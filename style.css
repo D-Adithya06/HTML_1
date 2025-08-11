@@ -1,0 +1,33 @@
+h1 {
+    color: rgb(38, 109, 156);
+    background-color:beige;
+    text-align: center;
+    text-decoration:solid;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: orchid 2px 2px 5px;
+    border-style: double;
+
+}
+
+h2 {
+    text-align: center;
+    color: aliceblue;
+    text-decoration: wavy;
+    font-style: italic;
+    font-size: 25px;
+}
+
+ul {
+    text-align: center;
+    color: aliceblue;
+    font-style: oblique;
+    font-size: 20px
+
+}
+body {
+    background-image: url("Bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
