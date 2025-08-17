@@ -31,3 +31,9 @@ body {
     background-size: cover;
 
 }
+ul {
+    list-style-position: inside; 
+    text-align: center;          
+    padding: 0;                  
+  
+}
