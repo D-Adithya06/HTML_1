@@ -1,35 +1,47 @@
 h1 {
-    color: rgb(38, 109, 156);
-    background-color:beige;
+    color: rgb(243, 248, 252);
+    background-color:rgb(19, 30, 25);
     text-align: center;
     text-decoration:solid;
     text-transform: uppercase;
     letter-spacing: 5px;
-    text-shadow: orchid 2px 2px 5px;
+    text-shadow: rgb(52, 51, 85) 2px 2px 5px;
     border-style: double;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
-h2 {
+
+.box {
+    color: rgb(243, 248, 252);
+    background-color:rgb(19, 30, 25);
     text-align: center;
-    color: aliceblue;
+    text-decoration:double;
+    letter-spacing: 3px;
+    text-shadow: rgb(153, 114, 152) 2px 2px 5px;
+    border-style: double;
+    opacity: 0.9;
+    border-width: 5px;
+    border-radius: 8px;
+    width: 475px;
+    height: 350px;
+}
+
+h2 {
     text-decoration: wavy;
-    font-style: italic;
     font-size: 25px;
 }
 
 ul {
-    text-align: center;
-    color: aliceblue;
-    font-style: oblique;
+    color:rgb(213, 209, 217);
     font-size: 20px
 
 }
 body {
-    background-image: url("Bg.png");
+    background-image: url("BgImage.png");
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 ul {
     list-style-position: inside; 
@@ -37,3 +49,25 @@ ul {
     padding: 0;                  
   
 }
+img {
+    border: 5px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    height: 200px;
+    width: 200px;
+}
+
+.info {
+    color: rgb(243, 248, 252);
+    background-color:rgb(19, 30, 25);
+    border-width: 5px;
+    border-radius: 8px;
+    width: 700px;
+    height:100px;
+    letter-spacing: 3px;
+    text-decoration:double;
+    letter-spacing: 5px;
+    text-shadow: rgb(153, 114, 152) 2px 2px 5px;
+    border-style: double;
+}
+
